@@ -86,7 +86,7 @@ int main(void)
             }
         }
         
-        // If all moving directions have been new_positions_tried and are invalid, stop the walk
+        // If all moving directions have been tried and are invalid, stop the walk
         if (new_positions_tried[0] + new_positions_tried[1] + new_positions_tried[2] + new_positions_tried[3] == MOVING_DIRECTIONS) {
             break;
         }
