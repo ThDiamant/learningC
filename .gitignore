@@ -1,1 +1,5 @@
-.vscode
+# Ignore executables and VS Code settings
+*
+!*.*
+!*/
+.vscode/
